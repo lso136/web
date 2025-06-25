@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
     res.end(`
       <html>
         <body>
-          <h1>텍스트를 입력하세요</h1>
+          <h1>텍스트 입력</h1>
           <form action="/submit" method="POST">
             <input type="text" name="userInput" />
             <button type="submit">제출</button>
